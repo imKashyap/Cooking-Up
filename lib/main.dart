@@ -1,5 +1,8 @@
 import 'package:flutter/material.dart';
-import 'category_screen.dart';
+import 'package:meals/screens/category_meals_screen.dart';
+import 'package:meals/screens/meal_detail_screen.dart';
+import 'package:meals/tabs_manager.dart';
+import 'screens/category_screen.dart';
 
 void main()=>runApp(MyApp());
 class MyApp extends StatelessWidget {
@@ -25,7 +28,13 @@ class MyApp extends StatelessWidget {
           )
         )
       ),
-      home: CategoryScreen(),
+      initialRoute: TabsManager.routeName,
+      routes: {
+        TabsManager.routeName:(ctx)=>TabsManager(),
+        CategoryScreen.routeName:(ctx)=>CategoryScreen(),
+        CategoryMealsScreen.routeName:(ctx)=>CategoryMealsScreen(),
+        MealDetailScreen.routeName:(ctx)=>MealDetailScreen(),
+      },
       debugShowCheckedModeBanner: false,
     );
   }

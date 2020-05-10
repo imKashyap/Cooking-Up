@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'file:///C:/Users/rahul/AndroidStudioProjects/meals/lib/category_item.dart';
 import 'package:meals/models/dummy_data.dart';
+
 class CategoryScreen extends StatelessWidget {
   static const String routeName='CategoryScreen';
   @override

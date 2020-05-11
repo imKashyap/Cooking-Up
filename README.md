@@ -1,16 +1,53 @@
-# meals
+# Cooking_up :bowl_with_spoon:
 
-A new Flutter project.
+ This flutter application is a recipe app which provides meals from around the world.
+ 
+ _*Features:*_
+
+ * Get meals from around the world categorized.
+
+ * Set Filters while looking for meals like is Gluten free, is vegan etc.
+
+ * Set meals to favorite.
+ 
+The entire application is inspired from the course of *Maximilian Schwarzmüller* over flutter availabe on Udemy.
+
+Here are the Screenshots
+
+  ### Screenshots:
+<img src ="/screenshots/Screenshot_1.jpeg"  width=400 alt ="Screenshot of the app">
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+#### Section 1: Setting Up for Flutter Development
 
-A few resources to get you started if this is your first Flutter project:
+* [Getting Started: Installing Flutter](https://flutter.dev/docs/get-started/install)
+* [Git for Windows](https://git-scm.com/download/win)
+* [Git for Mac](https://desktop.github.com)
+* [Install Android Studio](https://developer.android.com/studio/)
+* [iOS Setup Instructions](https://flutter.dev/docs/get-started/install/macos#ios-setup)
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+#### Section 2: Running this Flutter Project
+**Step 1:**
+Download or clone this repo by using the link below:
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+```
+https://github.com/imKashyap/Spendless.git
+```
+**Step 2:**
+Go to project root and execute the following command in console to get the required dependencies: 
+
+``` 
+flutter pub get 
+```
+
+**Step 3:**
+In the project root, execute the following command in console to run the app once you have emulator/device ready: 
+
+``` 
+flutter run
+```
+The application must be up and running in the device.
+
+Do fork and star :star: the repo if you find it appreciable.
+For any queries and suggestions, Conatct me at my mailing address.

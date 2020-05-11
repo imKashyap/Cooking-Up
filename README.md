@@ -15,7 +15,7 @@ The entire application is inspired from the course of *Maximilian Schwarzmüller
 Here are the Screenshots
 
   ### Screenshots:
-<img src ="/screenshots/Screenshot_1.jpeg"  width=400 alt ="Screenshot of the app">
+<img src ="/screenshots/Screenshot_1.jpg"  alt ="Screenshot of the app">
 
 ## Getting Started
 
